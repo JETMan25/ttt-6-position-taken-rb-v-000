@@ -1,11 +1,11 @@
 
 
 def position_taken?(board, index)
-if index == " " 
+if board[index] == " " 
 
-elsif index == ""
+elsif board[index] == ""
 
- elsif index == nil
+ elsif board[index] == nil
   return false
 
 else 
