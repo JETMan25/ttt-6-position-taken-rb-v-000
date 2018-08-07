@@ -1,3 +1,4 @@
+array[index_number]
 
 
 
