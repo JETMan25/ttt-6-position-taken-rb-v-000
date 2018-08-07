@@ -1,8 +1,8 @@
 
 
 def position_taken?(board, index)
-if index == ""
-  elsif index == " "
+if index == " "
+  elsif index == ""
  elsif index == nil
   return "false"
 end
