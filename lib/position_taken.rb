@@ -17,9 +17,11 @@ def move(board, index, value = "X")
   
 end
 
-def position_taken(board, index)
-
- end
+def position_taken?(board, index)
+if position_taken? == "x"
+elsif position_taken? == "O"
+return "true"
+end
  
 
 
