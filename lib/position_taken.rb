@@ -1,8 +1,8 @@
 array[#{index_number}]
 
-def position_taken?(board, index)
-  if position_taken?(#{board}, #{index}) == " "
-  elsif position_taken?(#board}, #{index}) == ""
+def position_taken(board, index)
+  if position_taken(#{board}, #{index}) == " "
+  elsif position_taken(#board}, #{index}) == ""
   return 
 end
 
