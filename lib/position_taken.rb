@@ -3,11 +3,11 @@
 def position_taken?(board, index)
 if index == " " 
 
-elsif 
-return false
+elsif index == ""
 
  elsif index == nil
   return false
+
 else 
   return true
 end
