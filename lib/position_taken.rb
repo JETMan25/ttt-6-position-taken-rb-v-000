@@ -7,7 +7,8 @@ return "false"
 return "false"
  elsif index == nil
   return "false"
-
+else 
+  return "true"
 end
 end
 
