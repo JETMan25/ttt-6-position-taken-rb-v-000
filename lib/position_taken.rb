@@ -18,11 +18,13 @@ def move(board, index, value = "X")
 end
 
 def position_taken?(board, index)
- if position_taken?(board, " "} == " "
- elsif position_taken?(board, index} == ""
- return "false"
+ if position_taken?(board, #{index}} == " "
  
-end
+ elsif position_taken?(board, #{index}} == ""
+
+ return "false"
+ end
+ 
 
 
 # code your #position_taken? method here!
