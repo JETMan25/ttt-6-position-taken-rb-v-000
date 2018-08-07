@@ -22,7 +22,7 @@ def position_taken(board, index)
  
  elsif position_taken?(board, index) == ""
 
- return "false"
+ return FALSE
  end
  
 
