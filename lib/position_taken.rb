@@ -2,9 +2,12 @@
 
 def position_taken?(board, index)
 if index == " "
+return "false"
   elsif index == ""
+return "false"
  elsif index == nil
   return "false"
+
 end
 end
 
