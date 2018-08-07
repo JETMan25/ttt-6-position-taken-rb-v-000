@@ -1,9 +1,9 @@
 
 
-def position_taken(board, index)
-  if position_taken(#{board}, #{index}) == " "
-  elsif position_taken(#board}, #{index}) == ""
-  return 
+def position_taken?(board, index)
+  if (board, index) == " "
+  elsif (board, index) == ""
+  return "false"
 end
 
 
